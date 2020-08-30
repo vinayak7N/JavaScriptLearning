@@ -1,0 +1,13 @@
+body {
+  background-color: deepskyblue;
+}
+h1 {
+  font-style: italic;
+}
+p {
+  color: snow;
+}
+label {
+  font-family: cursive;
+  border: 2px;
+  }

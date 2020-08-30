@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>First WebPage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <bod>
+    <h3 id="top">Top of the page</h3>
+    <h1>Hello People</h1>
+    <a href="about.html" title="Go to About Us page">About</a>
+    <p>Youtube image here</p>
+    <a href="https://www.youtube.com" target="_blank" title="Visit Youtube Page!">
+      <img
+        src="./images/youtube.png"
+        width="277"
+        height="200"
+        alt="Youtube image not found"
+      />
+    </a>
+    <h2 style="color: brown; border:22px solid red">Hello its <sup>1st</sup> &copy; channel <sub>in</sub> world</h2>
+    <!-- 
+     <h3>Unordered Listing</h3>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href= "index.html">Index</a></li>
+     </ul>
+     <ol>
+         <li>Apple</li>
+         <li>Orange</li>
+         <li>Mango</li>
+     </ol>
+     <table>
+         <tr>
+             <th>Column1</th>
+             <th>Column2</th>
+             <th>Column3</th>
+         </tr>
+         <tr>
+             <td>Row1</td>
+             <td>Row2</td>
+             <td>Row3</td>
+         </tr>
+     </table> -->
+    <form action="https://www.google.com" method="">
+      <b><label for="name" >First Name</label></b>
+      <input type="text" name="name" id="name" style="font-family: cursive;"/>
+      <br />
+      <br />
+      <b><label for="password">Password</label></b>
+      <input
+        type="password"
+        placeholder="enter password..."
+        id="password"
+        name="password"
+      />
+      <br />
+      <br />
+      <b><label for="email">Email</label></b>
+      <input type="email" name="email" id="email"/>
+      <br />
+      <br />
+      <b><label for="desc">Description</label></b>
+      <br />
+      <textarea
+        name="desc"
+        id="desc"
+        cols="30"
+        rows="10"
+        placeholder="Tell me about yourself!"
+      ></textarea>
+      <br />
+      <br />
+      <b><label for="gender">Gender</label></b>
+      <input type="radio" name="gender" id="gender" value="Male" />
+      Male
+      <input type="radio" name="gender" id="gender" value="Female" />
+      Female
+      <br />
+      <br />
+      <b><label for="checkbox">Language Known</label></b>
+      <input type="checkbox" name="checkbox" id="checkbox" value="English" />
+      English
+      <input type="checkbox" name="checkbox" id="checkbox"
+        value="Hindi" checked/>
+      Hindi
+      <br />
+      <br />
+      <b><label for="planguage">Programming Language</label></b>
+      <select name="planguage" id="">
+        <option value="Java">Java</option>
+        <option value="Java">Python</option>
+        <option value="Java">JavaScript</option>
+        <option value="Java">C#</option>
+      </select>
+      <br />
+      <br />
+      <hr>
+      <input type="submit" style="color:red" name="submit" value="Submit" />
+    </form>
+    <br />
+    <p>Here is a quote from <abbr title ="World Health Organisation">WHO</abbr> website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html" style="background-color:black; color:crimson">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+        <p style="color: azure">The Web page is designed by <cite>Vinayk Nair</cite></p>
+        <a href="mailto:vinayaknair1996@gmail.com">Send a mail</a>
+        <br>
+        <br>
+    <a href="#top">go to top</a>
+    <p>Bye!!!!!</p>
+  </body>
+</html>
