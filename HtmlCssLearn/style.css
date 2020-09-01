@@ -1,0 +1,52 @@
+.title {
+    color:blanchedalmond;
+}
+
+.subtitle{
+
+    color:violet;
+    font-family: cursive;
+}
+
+.underline{
+
+    color: brown;
+}
+
+#contact-us{
+    color:chartreuse
+}
+
+h2:hover{
+    color:darkcyan;
+}
+
+#glink:hover{
+    font-size: larger;
+    color:black;
+}
+
+#glink:visited{
+
+    color:springgreen;
+}
+
+ul > li{
+    color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list:hover{
+    font-size: larger;
+    color:black;
+}
+img{
+    border:20px solid gold;
+    }
+img:hover{
+    border: 20px solid green;
+}
+
+body {
+    background-color:cornflowerblue
+}
